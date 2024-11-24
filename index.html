@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./style.css" />
+        <title>B-W Transition</title>
+    </head>
+    <body>
+        <div id="main" class="h-full w-full">
+            <div id="transition" class="bg-white">
+                <div class="child-1 h-[100vh] w-full">
+                    <div
+                        class="m-0 flex items-center justify-around flex-row h-full"
+                    >
+                        <div
+                            class="flex items-center justify-center h-full w-1/2"
+                            id="img-div1"
+                        >
+                            <img
+                                src="./Images/maa_durga.jpg"
+                                alt="Maa Durga"
+                                class="rounded-lg h-[55%] w-[55%]"
+                            />
+                        </div>
+                        <div
+                            class=" text-left px-20 place-content-center h-full w-1/2"
+                            id="text-div1"
+                        >
+                            <h1 id="heading" class="font-bold text-3xl mb-4">
+                                Maa Durga
+                            </h1>
+                            <h2 id="subtext" class="font-normal text-xl">
+                                Maa durga,is a divine Hindu goddess, worshipped
+                                as a principal aspect of the mother goddess
+                                Mahadevi. She is associated with protection,
+                                strength, motherhood, destruction, and wars.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="child-2 h-[100vh] w-full">
+                    <div
+                        class="m-0 flex items-center justify-around flex-row h-full"
+                    >
+                        <div
+                            class="flex items-center justify-center h-full w-1/2"
+                            id="img-div2"
+                        >
+                            <img
+                                src="./Images/mahakali.jpg"
+                                alt="Maa Kali"
+                                class="rounded-lg h-[55%] w-[55%]"
+                            />
+                        </div>
+                        <div
+                            class="text-left px-20 place-content-center h-full w-1/2"
+                            id="text-div2"
+                        >
+                            <h1 id="heading2" class="font-bold text-3xl">Maha Kali</h1>
+                            <h2 id="subtext2" class="font-normal text-xl">
+                                Mahakali is a fierce goddess associated with
+                                universal power, time, life, death, and both
+                                rebirth and liberation. She is the consort of
+                                Bhairava, the god of consciousness, the basis of
+                                reality and existence
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</html>
